@@ -1,0 +1,105 @@
+.main {
+  margin: 20px auto;
+  float: none;
+  padding-bottom: 40px;
+}
+
+.inner-panel {
+    min-height: auto;
+ }
+
+table tbody tr:hover {background-color: #eff;}
+
+.ttip::after {
+  background: #fff;
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  color: #000;
+  content: attr(data-tooltip);
+  margin-top: -24px;
+  opacity: 0;
+  padding: 3px 7px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+    
+.ttip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.table-responsive .panel {clear: both;}
+.table-responsive .th {height: 30px; border-bottom: 2px solid #eee;}
+.table-responsive .td {padding: 10px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #eee;}
+.table-responsive .tr {height: 40px;}
+.table-responsive .tr:hover {background-color: #eff;}
+.table-responsive a {margin-right: 5px;}
+
+.coursePanel .editForm{
+  border: 3px solid #005595;
+  background-color: #E5F4FF;
+  border-radius:30px;
+  padding:5px;
+  margin-top: 10px;
+  margin-right:24px;
+  margin-left:0px !important;
+  min-height: 200px;
+  overflow-x: hidden;
+}
+
+.coursePanel label {
+  float: none;
+  display: inline-table;
+}
+
+.coursePanel span {
+  float: none;
+  display: inline-table;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.coursePanel .form-group {
+  margin-left: 15px;
+}
+
+.coursePanel .form-control {
+  width: 80%;
+  height: 29px;
+}
+
+#delPanel {
+    top: 30%;
+    left: 18%;
+}
+
+#delPanel .addForm {
+    border: 3px solid #005595;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 24px;
+    margin-left: 24px;
+    min-height: 260px;
+}
+
+#confirmPanel .addForm {
+    min-height: 220px;
+}
+
+#delPanel .buttons {text-align: right; padding-right: 20px; padding-top: 20px;}
+#delPanel .img-responsive {max-height: 150px;}
+#confirmPanel .buttons {text-align: right; padding-right: 20px; padding-top: 20px;}
+
+.modal-backdrop {
+    background: none;
+}
+
+.simple {
+    display:none;
+}
+
+#confirmPanel {
+    overflow: visible;
+}
