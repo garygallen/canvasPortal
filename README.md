@@ -1,5 +1,6 @@
 # canvasPortal
-Single Page Application Webportal consuming RESTful API Services
+A Single Page Application Webportal consuming RESTful API Services.
+
 The webportal was a front tier application interfacing with a LMS.  The provided the capability for the user 
 to create a course, edit, and delete.
 
