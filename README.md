@@ -1,12 +1,10 @@
 # canvasPortal
 A Single Page Application Webportal consuming RESTful API Services.
 
-The webportal was a front tier application interfacing with a LMS.  The provided the capability for the user 
+The webportal is a front tier application interfacing with the Canvas LMS.  The app provided the capability for the user 
 to create a course, edit, and delete.
 
 The user would enter a course name, a short name and a department from a dropdown list.  The app would wrap the short course
-name with standard fields separated with a period.  The fields school identifier code, the user email name, and at the
-end appended the date the course was created.  This provided a standarization of short course name.  The short course name was 
-used by other applications within the LMS.  This allowed application an efficent way to access course data from the DB.
+name with standard fields separated with a period.  The fields provided were the school identifier code, the user email name, and at the end appended the date the course was created.  This mechanism allow for standarization for the short course name. The short course name was used by other applications within the LMS providing them an efficent way to access course data from the DB.
 
-The API services provided a middle tier between the web portal and the db.
+The API services provided a middle tier between the web portal and the DB.
